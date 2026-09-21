@@ -1,0 +1,350 @@
+INFO:root:Loading Dataset...
+INFO:root:Done
+INFO:root:Initialize Network...
+INFO:root:Done
+INFO:root:Beginning Epoch 00
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1         [-1, 64, 300, 300]          20,800
+            Conv2d-2        [-1, 128, 150, 150]         204,928
+            Conv2d-3          [-1, 256, 75, 75]         295,168
+            Conv2d-4          [-1, 256, 75, 75]         590,080
+   ConvTranspose2d-5        [-1, 128, 150, 150]         524,416
+   ConvTranspose2d-6         [-1, 64, 300, 300]         131,136
+            Conv2d-7          [-1, 1, 300, 300]              65
+            Conv2d-8          [-1, 1, 300, 300]              65
+            Conv2d-9          [-1, 1, 300, 300]              65
+           Conv2d-10          [-1, 1, 300, 300]              65
+================================================================
+Total params: 1,766,788
+Trainable params: 1,766,788
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 1.37
+Forward/backward pass size (MB): 156.56
+Params size (MB): 6.74
+Estimated Total Size (MB): 164.67
+----------------------------------------------------------------
+INFO:root:Validating...
+INFO:root:0/4 = 0.000000
+INFO:root:Beginning Epoch 01
+INFO:root:Validating...
+INFO:root:0/4 = 0.000000
+INFO:root:Beginning Epoch 02
+INFO:root:Validating...
+INFO:root:0/4 = 0.000000
+INFO:root:Beginning Epoch 03
+INFO:root:Validating...
+INFO:root:0/4 = 0.000000
+INFO:root:Beginning Epoch 04
+INFO:root:Validating...
+INFO:root:1/4 = 0.250000
+INFO:root:Beginning Epoch 05
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 06
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 07
+INFO:root:Validating...
+INFO:root:1/4 = 0.250000
+INFO:root:Beginning Epoch 08
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 09
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 10
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 11
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 12
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 13
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 14
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 15
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 16
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 17
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 18
+INFO:root:Validating...
+INFO:root:4/4 = 1.000000
+INFO:root:Beginning Epoch 19
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 20
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 21
+INFO:root:Validating...
+INFO:root:1/4 = 0.250000
+INFO:root:Beginning Epoch 22
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 23
+INFO:root:Validating...
+INFO:root:0/4 = 0.000000
+INFO:root:Beginning Epoch 24
+INFO:root:Validating...
+INFO:root:1/4 = 0.250000
+INFO:root:Beginning Epoch 25
+INFO:root:Validating...
+INFO:root:1/4 = 0.250000
+INFO:root:Beginning Epoch 26
+INFO:root:Validating...
+INFO:root:0/4 = 0.000000
+INFO:root:Beginning Epoch 27
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 28
+INFO:root:Validating...
+INFO:root:1/4 = 0.250000
+INFO:root:Beginning Epoch 29
+INFO:root:Validating...
+INFO:root:1/4 = 0.250000
+INFO:root:Beginning Epoch 30
+INFO:root:Validating...
+INFO:root:0/4 = 0.000000
+INFO:root:Beginning Epoch 31
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 32
+INFO:root:Validating...
+INFO:root:4/4 = 1.000000
+INFO:root:Beginning Epoch 33
+INFO:root:Validating...
+INFO:root:0/4 = 0.000000
+INFO:root:Beginning Epoch 34
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 35
+INFO:root:Validating...
+INFO:root:1/4 = 0.250000
+INFO:root:Beginning Epoch 36
+INFO:root:Validating...
+INFO:root:1/4 = 0.250000
+INFO:root:Beginning Epoch 37
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 38
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 39
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 40
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 41
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 42
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 43
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 44
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 45
+INFO:root:Validating...
+INFO:root:1/4 = 0.250000
+INFO:root:Beginning Epoch 46
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 47
+INFO:root:Validating...
+INFO:root:1/4 = 0.250000
+INFO:root:Beginning Epoch 48
+INFO:root:Validating...
+INFO:root:4/4 = 1.000000
+INFO:root:Beginning Epoch 49
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 50
+INFO:root:Validating...
+INFO:root:0/4 = 0.000000
+INFO:root:Beginning Epoch 51
+INFO:root:Validating...
+INFO:root:4/4 = 1.000000
+INFO:root:Beginning Epoch 52
+INFO:root:Validating...
+INFO:root:1/4 = 0.250000
+INFO:root:Beginning Epoch 53
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 54
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 55
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 56
+INFO:root:Validating...
+INFO:root:4/4 = 1.000000
+INFO:root:Beginning Epoch 57
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 58
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 59
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 60
+INFO:root:Validating...
+INFO:root:1/4 = 0.250000
+INFO:root:Beginning Epoch 61
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 62
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 63
+INFO:root:Validating...
+INFO:root:4/4 = 1.000000
+INFO:root:Beginning Epoch 64
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 65
+INFO:root:Validating...
+INFO:root:4/4 = 1.000000
+INFO:root:Beginning Epoch 66
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 67
+INFO:root:Validating...
+INFO:root:1/4 = 0.250000
+INFO:root:Beginning Epoch 68
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 69
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 70
+INFO:root:Validating...
+INFO:root:4/4 = 1.000000
+INFO:root:Beginning Epoch 71
+INFO:root:Validating...
+INFO:root:0/4 = 0.000000
+INFO:root:Beginning Epoch 72
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 73
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 74
+INFO:root:Validating...
+INFO:root:4/4 = 1.000000
+INFO:root:Beginning Epoch 75
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 76
+INFO:root:Validating...
+INFO:root:4/4 = 1.000000
+INFO:root:Beginning Epoch 77
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 78
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 79
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 80
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 81
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 82
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 83
+INFO:root:Validating...
+INFO:root:4/4 = 1.000000
+INFO:root:Beginning Epoch 84
+INFO:root:Validating...
+INFO:root:4/4 = 1.000000
+INFO:root:Beginning Epoch 85
+INFO:root:Validating...
+INFO:root:4/4 = 1.000000
+INFO:root:Beginning Epoch 86
+INFO:root:Validating...
+INFO:root:4/4 = 1.000000
+INFO:root:Beginning Epoch 87
+INFO:root:Validating...
+INFO:root:4/4 = 1.000000
+INFO:root:Beginning Epoch 88
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 89
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 90
+INFO:root:Validating...
+INFO:root:4/4 = 1.000000
+INFO:root:Beginning Epoch 91
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 92
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 93
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 94
+INFO:root:Validating...
+INFO:root:4/4 = 1.000000
+INFO:root:Beginning Epoch 95
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 96
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 97
+INFO:root:Validating...
+INFO:root:2/4 = 0.500000
+INFO:root:Beginning Epoch 98
+INFO:root:Validating...
+INFO:root:3/4 = 0.750000
+INFO:root:Beginning Epoch 99
+INFO:root:Validating...
+INFO:root:4/4 = 1.000000
+	Command being timed: "python3 train_model.py --dataset-path /home/gp3/datasets/cornell --use-depth 1 --use-rgb 1 --split 0.9 --batch-size 10 --epochs 100 --batches-per-epoch 40 --val-batches 5 --num-workers 4 --description rgbd_big_f64_128_256_bs10_e100_b40"
+	User time (seconds): 3204.86
+	System time (seconds): 112.67
+	Percent of CPU this job got: 353%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 15:38.87
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3275372
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 34534151
+	Minor (reclaiming a frame) page faults: 22249602
+	Voluntary context switches: 592177
+	Involuntary context switches: 383503
+	Swaps: 0
+	File system inputs: 2686808
+	File system outputs: 614912
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
